@@ -21,7 +21,7 @@ export const topics: Topic[] = [
       'Do not click links in unsolicited messages',
       'Type the official website address directly into your browser',
       'Verify claims by calling the official customer care number',
-      'Look for HTTPS and the correct spelling in the website URL'
+      'A padlock/HTTPS does not mean a site is safe. Check that the domain spelling is exact.'
     ],
     takeaway: 'Never click on suspicious links or panic under pressure; always verify directly.'
   },
@@ -30,7 +30,7 @@ export const topics: Topic[] = [
     title: 'UPI & Digital Payment Fraud',
     icon: 'Smartphone',
     description: 'Protect your money from fake payment requests and QR code scams.',
-    explanation: 'Scammers trick you into sending money when you believe you are receiving it. Remember, you never need to enter your UPI PIN or scan a QR code to receive money. PINs are only for sending money or checking your balance.',
+    explanation: 'Scammers trick you into sending money when you believe you are receiving it. Remember, you never need to scan a QR code or enter your UPI PIN to receive money. Your UPI PIN is for authorising payments, never for receiving money.',
     example: {
       scenario: 'Rajesh lists an old bicycle for sale online. A buyer agrees to the price without negotiating and says they will send money immediately.',
       details: 'The "buyer" sends a QR code or a payment request on a UPI app, claiming Rajesh needs to scan it or enter his PIN to "receive" the payment. In reality, it is a request to deduct money from Rajesh\'s account.'
@@ -42,12 +42,12 @@ export const topics: Topic[] = [
       'Fake payment screenshots showing a successful transfer before it hits your bank'
     ],
     safeActions: [
-      'Remember: UPI PIN is ONLY for sending money, never receiving',
-      'Never scan a QR code sent by a stranger to get paid',
+      'You never need to scan a QR code or enter your UPI PIN to receive money.',
+      'Your UPI PIN is for authorising payments, never for receiving money.',
       'Always check your bank SMS or app to confirm receipt of funds',
       'Cancel unknown payment requests on your UPI app immediately'
     ],
-    takeaway: 'You NEVER need to enter your PIN or scan a QR code to receive money.'
+    takeaway: 'You never need to scan a QR code or enter your UPI PIN to receive money.'
   },
   {
     slug: 'otp-scams',
@@ -63,7 +63,7 @@ export const topics: Topic[] = [
       'Unexpected calls asking for an OTP, password, or PIN',
       'Callers claiming to be from official organizations asking for sensitive codes',
       'Threats of blocking services (bank, SIM, gas connection) if you do not comply',
-      'Being asked to forward an SMS starting with a strange code'
+      'Being asked to read out or forward a code you just received.'
     ],
     safeActions: [
       'Never share your OTP with anyone, under any circumstances',
@@ -87,11 +87,11 @@ export const topics: Topic[] = [
       'Using names, birthdates, or simple sequences (123456) as passwords',
       'Using the exact same password for multiple different websites',
       'Writing passwords on sticky notes near your computer',
-      'Never changing passwords for years'
+      'Not changing a password after a data breach or suspicious login'
     ],
     safeActions: [
       'Use a strong, unique password for each important account',
-      'Combine random words to make a memorable passphrase (e.g., BlueMangoTrainStar)',
+      'Combine random words to make a memorable passphrase (e.g., BlueMangoTrainStar) (example only, don\'t use it)',
       'Enable Two-Factor Authentication (2FA) wherever possible',
       'Use a trusted password manager to store complex passwords securely'
     ],
@@ -110,13 +110,14 @@ export const topics: Topic[] = [
     warningSigns: [
       'Friend requests from people you are already friends with (cloned accounts)',
       'Messages from friends suddenly asking for money urgently',
-      'Quizzes on Facebook asking for personal details (first pet name, mother\'s maiden name)',
+      'Online quizzes asking for personal details (first pet name, mother\'s maiden name)',
       'Strangers sending romantic messages or asking to switch to private video calls'
     ],
     safeActions: [
       'Make your social media profiles private',
       'Do not accept friend requests from strangers',
       'Verify emergency requests from friends by calling them on their phone number',
+      'Report fake profiles to the platform.',
       'Avoid oversharing personal routines, travel plans, or sensitive photos'
     ],
     takeaway: 'Keep your profile private, verify urgent requests, and think before you share.'
@@ -135,10 +136,11 @@ export const topics: Topic[] = [
       'Job offers via WhatsApp or Telegram from unknown international numbers',
       'Promises of high pay for very simple tasks (liking videos, reviewing hotels)',
       'Being asked to pay money (for training, kit, or registration) to get a job',
-      'Recruiters using personal email addresses (like @gmail.com) instead of company domains'
+      'Recruiters who only use a personal email and give no company domain or official careers page.'
     ],
     safeActions: [
       'Remember that legitimate employers will never ask you to pay them for a job',
+      'Confirm the offer on the company\'s official website or careers page.',
       'Research the company independently on LinkedIn or official job portals',
       'Ignore unsolicited job offers via chat apps that seem too good to be true',
       'Never invest your own money to complete online "tasks"'
@@ -150,16 +152,16 @@ export const topics: Topic[] = [
     title: 'AI Voice & Image Impersonation',
     icon: 'Bot',
     description: 'Learn about deepfakes and AI voice scams.',
-    explanation: 'Scammers are now using Artificial Intelligence to clone the voices or faces of your loved ones. They can take a short audio clip from social media and use it to make a fake distress call that sounds exactly like your friend or family member.',
+    explanation: 'Scammers are now using Artificial Intelligence to clone the voices or faces of your loved ones. They can take a short audio clip from social media and use it to make a fake distress call that can sound very convincing.',
     example: {
-      scenario: 'Mr. Sharma gets a frantic phone call from his son\'s phone number. The voice sounds exactly like his son.',
+      scenario: 'Mr. Sharma gets a frantic phone call from his son\'s phone number. The voice can sound very convincing.',
       details: 'The voice claims he has been arrested and needs bail money transferred immediately to a lawyer\'s account. The scammer spoofed the phone number and used AI to clone the son\'s voice from a public Instagram video.'
     },
     warningSigns: [
       'Unexpected distress calls from family members sounding panicked',
       'Urgent demands for money transferred to unknown accounts',
       'Callers making excuses for why they cannot turn on video or answer specific personal questions',
-      'Poor quality video calls where the person\'s mouth movements look slightly unnatural (deepfakes)'
+      'Don\'t rely on spotting glitches; always verify by calling back on a known number.'
     ],
     safeActions: [
       'Stay calm. Hang up and call the person back on their known number directly',

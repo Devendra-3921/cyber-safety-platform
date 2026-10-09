@@ -150,6 +150,14 @@ export default async function TopicPage({ params }: { params: Params | Promise<P
         </p>
       </Callout>
 
+      {/* Line linking to Safety Center */}
+      <div className="text-center p-4 bg-slate-100/80 border border-slate-200 rounded-2xl text-sm text-slate-700">
+        <span>Already lost money? </span>
+        <Link href="/safety" className="font-semibold text-teal-700 hover:text-teal-900 underline underline-offset-2">
+          See the Safety Center.
+        </Link>
+      </div>
+
       {/* Bottom Footer Navigation */}
       <div className="pt-6 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4">
         <Link

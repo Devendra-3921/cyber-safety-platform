@@ -29,7 +29,7 @@ export const quizQuestions: QuizQuestion[] = [
       'Scan it using a different UPI app.'
     ],
     correctIndex: 2,
-    explanation: 'You NEVER need to scan a QR code or enter your UPI PIN to receive money. Doing so will deduct money from your account.'
+    explanation: 'You never need to scan a QR code or enter your UPI PIN to receive money. Doing so will deduct money from your account.'
   },
   {
     id: 3,

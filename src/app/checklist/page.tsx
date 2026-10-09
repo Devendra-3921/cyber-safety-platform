@@ -47,13 +47,9 @@ export default function ChecklistPage() {
               Keep this handy guide near your workspace or pin it near family devices.
             </p>
           </div>
-          <div className="hidden sm:block text-right text-xs text-slate-400 font-mono print:block">
-            <span>Rev. 2026</span><br />
-            <span>Format: A4 Printable</span>
-          </div>
         </div>
 
-        {/* Golden Rules: DO and DON'T side-by-side or stacked */}
+        {/* Golden Rules: DO and DON'T side-by-side */}
         <div className="grid sm:grid-cols-2 gap-6 print:gap-4">
           {/* SAFE ACTIONS (DO) */}
           <div className="bg-emerald-50/70 border-2 border-emerald-300/80 rounded-2xl p-5 print:p-4 space-y-3.5 print:space-y-2">
@@ -88,7 +84,7 @@ export default function ChecklistPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="font-bold text-emerald-700">✓</span>
-                <span><strong>Report suspicious activity immediately</strong> to 1930 to trigger prompt interbank fraud freezes.</span>
+                <span><strong>Report suspicious activity immediately</strong> to 1930. Quick reporting gives the best chance of stopping the money.</span>
               </li>
             </ul>
           </div>
@@ -110,7 +106,7 @@ export default function ChecklistPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="font-bold text-rose-700">✕</span>
-                <span><strong>Never scan a QR code to receive money.</strong> Scanning a QR code or entering a PIN always deducts funds.</span>
+                <span><strong>Never scan a QR code to receive money.</strong> You never need to scan a QR code or enter your UPI PIN to receive money.</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="font-bold text-rose-700">✕</span>
@@ -140,11 +136,10 @@ export default function ChecklistPage() {
             </div>
             <div>
               <div className="text-xs uppercase tracking-wider text-slate-400 print:text-slate-600 font-semibold">
-                National Cyber Crime Helpline (India)
+                National Cyber Crime Helpline
               </div>
               <div className="text-xl font-black text-rose-400 print:text-rose-700 flex items-center gap-2">
                 <span>Dial 1930</span>
-                <span className="text-xs font-normal text-slate-300 print:text-slate-600">(Toll-Free 24x7)</span>
               </div>
             </div>
           </div>
@@ -155,7 +150,7 @@ export default function ChecklistPage() {
             </div>
             <div>
               <div className="text-xs uppercase tracking-wider text-slate-400 print:text-slate-600 font-semibold">
-                Official Incident Reporting Portal
+                National Reporting Portal
               </div>
               <div className="text-sm font-bold text-teal-300 print:text-teal-800">
                 https://cybercrime.gov.in/

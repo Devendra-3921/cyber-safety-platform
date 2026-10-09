@@ -43,13 +43,12 @@ export const TopicCard: React.FC<TopicCardProps> = ({ topic }) => {
         <h3 className="text-lg font-bold text-slate-900 group-hover:text-teal-700 transition-colors mb-2 leading-snug">
           {topic.title}
         </h3>
-        <p className="text-sm text-slate-600 line-clamp-3 leading-relaxed mb-6">
+        <p className="text-sm text-slate-600 line-clamp-3 leading-relaxed mb-4">
           {topic.description}
         </p>
       </div>
 
-      <div className="pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-teal-700">
-        <span>Learn prevention steps</span>
+      <div className="pt-3 border-t border-slate-100 flex items-center justify-end text-teal-700">
         <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden="true" />
       </div>
     </Link>

@@ -49,10 +49,10 @@ export default function Home() {
           </div>
 
           {/* Trust points */}
-          <div className="pt-8 border-t border-slate-200/60 max-w-xl mx-auto grid grid-cols-3 gap-2 text-center text-xs text-slate-500 font-medium">
-            <div className="px-2">✓ 100% Free &amp; Open</div>
-            <div className="px-2 border-x border-slate-200">✓ Zero Data Collected</div>
-            <div className="px-2">✓ Helpline 1930 Guide</div>
+          <div className="pt-8 border-t border-slate-200/60 max-w-md mx-auto flex items-center justify-center gap-6 text-center text-xs text-slate-500 font-medium">
+            <div>✓ Zero Data Collected</div>
+            <span className="text-slate-300">•</span>
+            <div>✓ Helpline 1930 Guide</div>
           </div>
         </div>
       </section>
@@ -138,7 +138,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="mt-6 pt-4 border-t border-slate-100 text-xs font-medium text-teal-800 bg-teal-50/50 p-2.5 rounded-lg">
-                💡 Tip: Scanning a QR code is never needed to receive money.
+                💡 Tip: Real banks never ask you to move money to a &apos;safe account&apos;.
               </div>
             </div>
 
@@ -153,7 +153,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-lg font-bold text-slate-900">Report Promptly</h3>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  If money left your account, act in the first 2 hours. Call the National Cyber Crime Helpline at <strong className="text-slate-900">1930</strong> and lodge a complaint at <strong className="text-slate-900">cybercrime.gov.in</strong>.
+                  If money left your account, act as quickly as possible. Call the National Cyber Crime Helpline at <strong className="text-slate-900">1930</strong> and lodge a complaint at <strong className="text-slate-900">cybercrime.gov.in</strong>.
                 </p>
               </div>
               <div className="mt-6 pt-4 border-t border-slate-100 text-xs font-medium text-rose-800 bg-rose-50/50 p-2.5 rounded-lg">
@@ -174,9 +174,6 @@ export default function Home() {
           <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
             From Our Community Survey
           </h2>
-          <p className="text-slate-600 text-sm max-w-md mx-auto">
-            Insights gathered from student and local community awareness sessions.
-          </p>
         </div>
         
         {(!surveyData.totalResponses || surveyData.highlights.length === 0) ? (
@@ -186,9 +183,6 @@ export default function Home() {
             </div>
             <p className="text-sm font-medium text-slate-700">
               Survey results will be added after data collection.
-            </p>
-            <p className="text-xs text-slate-500 mt-1">
-              Field survey data is currently being gathered during our active campus and community awareness sessions.
             </p>
           </div>
         ) : (

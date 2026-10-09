@@ -110,9 +110,6 @@ export default function AboutPage() {
             <p className="text-sm font-medium text-slate-700">
               Survey results will be added after data collection.
             </p>
-            <p className="text-xs text-slate-500 mt-1">
-              Data is being aggregated from campus survey responses and local community feedback forms.
-            </p>
           </div>
         ) : (
           <div className="space-y-4">
@@ -145,9 +142,6 @@ export default function AboutPage() {
           <div className="p-6 bg-slate-50 rounded-2xl border border-slate-200/80 text-center">
             <p className="text-sm font-medium text-slate-700">
               Community engagement details will be added after our awareness session.
-            </p>
-            <p className="text-xs text-slate-500 mt-1">
-              Workshop dates, participant headcounts, and venue documentation will be published post-demonstration.
             </p>
           </div>
         ) : (

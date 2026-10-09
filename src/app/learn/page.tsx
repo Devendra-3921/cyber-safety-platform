@@ -32,7 +32,7 @@ export default function LearnPage() {
         </div>
         <div className="text-sm text-center sm:text-left flex-1">
           <strong className="font-bold text-amber-950">Crucial Payment Safety Rule: </strong>
-          Scanning a QR code or entering your UPI PIN is <span className="underline decoration-amber-500 font-bold">only required to SEND money</span>. You NEVER need to scan a QR code or enter a PIN to receive funds.
+          You never need to scan a QR code or enter your UPI PIN to receive money.
         </div>
         <Link 
           href="/learn/upi-fraud"

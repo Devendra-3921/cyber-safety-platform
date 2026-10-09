@@ -63,7 +63,7 @@ const Navbar: React.FC = () => {
               })}
             </div>
 
-            {/* Quick 1930 Emergency Badge */}
+            {/* Quick 1930 Helpline Badge */}
             <div className="pl-2 border-l border-slate-200">
               <a
                 href="tel:1930"
@@ -77,14 +77,7 @@ const Navbar: React.FC = () => {
           </div>
 
           {/* Mobile menu button */}
-          <div className="flex items-center gap-2 md:hidden">
-            <a
-              href="tel:1930"
-              className="inline-flex items-center gap-1 rounded-full bg-rose-50 px-2.5 py-1 text-xs font-semibold text-rose-700 ring-1 ring-rose-200"
-            >
-              <PhoneCall className="h-3 w-3" />
-              <span>1930</span>
-            </a>
+          <div className="flex items-center md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"

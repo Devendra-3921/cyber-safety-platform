@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, ExternalLink, ShieldAlert, KeyRound, MessageSquareWarning, Printer, AlertCircle } from 'lucide-react';
+import { Phone, ExternalLink, ShieldAlert, KeyRound, MessageSquareWarning, Printer, AlertCircle, Building2 } from 'lucide-react';
 import { Button } from '@/components/Button';
 import { Callout } from '@/components/Callout';
 
@@ -25,11 +25,11 @@ export default function SafetyCenterPage() {
         </p>
       </div>
 
-      {/* Prominent Emergency Section: Financial Fraud in India */}
+      {/* Prominent Section: Financial Fraud in India */}
       <section className="bg-rose-50/90 border-2 border-rose-200 rounded-3xl p-6 sm:p-8 shadow-xs space-y-6">
         <div className="flex items-center gap-2.5 text-xs font-bold uppercase tracking-wider text-rose-800">
           <span className="flex h-2.5 w-2.5 rounded-full bg-rose-600 animate-ping" />
-          <span>Urgent Financial Fraud Action Plan (India)</span>
+          <span>Financial Fraud Action Plan (India)</span>
         </div>
 
         <div className="space-y-2">
@@ -37,48 +37,67 @@ export default function SafetyCenterPage() {
             Lost Money to an Online Scam or Unauthorized Transaction?
           </h2>
           <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-            Every minute matters. In the event of fraudulent UPI transfers, credit card fraud, or unauthorized bank debits, immediate reporting within the <strong>golden hours (first 2 hours)</strong> gives authorities the highest chance of freezing fraudulent money trails before withdrawal.
+            Act quickly. These steps can help. In the event of fraudulent UPI transfers, credit card fraud, or unauthorized bank debits, act as quickly as possible to give authorities the highest chance of freezing fraudulent money trails before withdrawal.
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-4 pt-2">
+        <div className="grid sm:grid-cols-3 gap-4 pt-2">
           {/* Action 1: Call 1930 */}
-          <div className="bg-white p-5 rounded-2xl border border-rose-200 shadow-2xs space-y-2">
-            <div className="flex items-center justify-between">
-              <span className="text-xs font-bold uppercase text-rose-700 font-mono">STEP 1: PHONE</span>
-              <span className="text-[11px] bg-rose-100 text-rose-800 px-2 py-0.5 rounded-full font-medium">Toll Free 24x7</span>
+          <div className="bg-white p-5 rounded-2xl border border-rose-200 shadow-2xs space-y-2 flex flex-col justify-between">
+            <div className="space-y-2">
+              <div className="flex items-center justify-between">
+                <span className="text-xs font-bold uppercase text-rose-700 font-mono">STEP 1: HELPLINE</span>
+              </div>
+              <div className="text-2xl font-black text-rose-700 flex items-center gap-2">
+                <Phone className="h-6 w-6" aria-hidden="true" />
+                <a href="tel:1930" className="hover:underline">1930</a>
+              </div>
+              <div className="text-xs font-semibold text-slate-800">National Cyber Crime Helpline</div>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                Call 1930 and keep these details ready: transaction ID, date and time, amount, and the account or UPI ID involved.
+              </p>
             </div>
-            <div className="text-2xl font-black text-rose-700 flex items-center gap-2">
-              <Phone className="h-6 w-6" aria-hidden="true" />
-              <a href="tel:1930" className="hover:underline">1930</a>
-            </div>
-            <div className="text-xs font-semibold text-slate-800">National Cyber Crime Reporting Helpline</div>
-            <p className="text-xs text-slate-600 leading-relaxed">
-              Call immediately from the registered mobile number. Keep transaction ID, bank account number, and SMS timestamp ready.
-            </p>
           </div>
 
-          {/* Action 2: File at cybercrime.gov.in */}
-          <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs space-y-2">
-            <div className="flex items-center justify-between">
-              <span className="text-xs font-bold uppercase text-slate-600 font-mono">STEP 2: OFFICIAL PORTAL</span>
-              <span className="text-[11px] bg-slate-100 text-slate-700 px-2 py-0.5 rounded-full font-medium">Ministry of Home Affairs</span>
+          {/* Action 2: Contact Bank */}
+          <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs space-y-2 flex flex-col justify-between">
+            <div className="space-y-2">
+              <div className="flex items-center justify-between">
+                <span className="text-xs font-bold uppercase text-slate-600 font-mono">STEP 2: BANK / ISSUER</span>
+              </div>
+              <div className="text-xl font-bold text-slate-900 flex items-center gap-2">
+                <Building2 className="h-5 w-5 text-teal-700" aria-hidden="true" />
+                <span>Block Card / UPI</span>
+              </div>
+              <div className="text-xs font-semibold text-slate-800">Card Issuer / Bank Support</div>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                Contact your bank or card issuer right away, using the number on your card or the official app, to block the card or UPI.
+              </p>
             </div>
-            <div className="text-xl font-bold text-slate-900 flex items-center gap-2">
-              <span>cybercrime.gov.in</span>
+          </div>
+
+          {/* Action 3: File at cybercrime.gov.in */}
+          <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs space-y-2 flex flex-col justify-between">
+            <div className="space-y-2">
+              <div className="flex items-center justify-between">
+                <span className="text-xs font-bold uppercase text-slate-600 font-mono">STEP 3: OFFICIAL PORTAL</span>
+              </div>
+              <div className="text-xl font-bold text-slate-900 flex items-center gap-2">
+                <span>cybercrime.gov.in</span>
+              </div>
+              <div className="text-xs font-semibold text-slate-800">National Reporting Portal</div>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                File a detailed complaint with screenshot evidence, UPI handle, and caller information.
+              </p>
             </div>
-            <div className="text-xs font-semibold text-slate-800">Official National Reporting Portal</div>
-            <p className="text-xs text-slate-600 leading-relaxed pb-1">
-              File a detailed complaint with screenshot evidence, UPI handle, and caller information.
-            </p>
             <a 
               href="https://cybercrime.gov.in/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-xs font-bold text-teal-700 hover:text-teal-900"
+              className="inline-flex items-center gap-1.5 text-xs font-bold text-teal-700 hover:text-teal-900 pt-1"
               aria-label="Visit cybercrime.gov.in (opens in new window, external link)"
             >
-              <span>Open Official Portal (External)</span>
+              <span>Open Portal (External)</span>
               <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />
             </a>
           </div>

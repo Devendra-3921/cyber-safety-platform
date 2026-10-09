@@ -5,36 +5,6 @@ import { Phone, ExternalLink, ShieldAlert, GraduationCap } from 'lucide-react';
 const Footer: React.FC = () => {
   return (
     <footer className="bg-slate-900 text-slate-300 border-t border-slate-800 print:hidden">
-      {/* Top emergency announcement banner in footer */}
-      <div className="bg-slate-950/70 border-b border-slate-800/80 py-4 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-xs sm:text-sm">
-          <div className="flex items-center gap-2 text-slate-300">
-            <span className="flex h-2 w-2 rounded-full bg-emerald-400 animate-pulse" aria-hidden="true" />
-            <span className="font-medium text-slate-200">Official Cyber Crime Helpline (India):</span>
-            <span className="text-slate-400">Toll-free 24x7 emergency response</span>
-          </div>
-          <div className="flex items-center gap-3">
-            <a 
-              href="tel:1930" 
-              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-rose-500/20 text-rose-300 ring-1 ring-rose-500/40 hover:bg-rose-500/30 transition-colors font-semibold"
-            >
-              <Phone className="h-3.5 w-3.5 text-rose-400" aria-hidden="true" />
-              <span>Dial 1930</span>
-            </a>
-            <a
-              href="https://cybercrime.gov.in/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-slate-800 text-slate-200 ring-1 ring-slate-700 hover:bg-slate-700 transition-colors"
-              aria-label="National Cyber Crime Reporting Portal (opens in a new tab)"
-            >
-              <span>cybercrime.gov.in</span>
-              <ExternalLink className="h-3 w-3 text-slate-400" aria-hidden="true" />
-            </a>
-          </div>
-        </div>
-      </div>
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
           {/* Project overview */}
@@ -65,8 +35,8 @@ const Footer: React.FC = () => {
               <Link href="/" className="hover:text-teal-400 transition-colors">Home</Link>
               <Link href="/learn" className="hover:text-teal-400 transition-colors">Safety Topics (7)</Link>
               <Link href="/quiz" className="hover:text-teal-400 transition-colors">Interactive Quiz</Link>
-              <Link href="/safety" className="hover:text-teal-400 transition-colors">Safety & Recovery Center</Link>
-              <Link href="/about" className="hover:text-teal-400 transition-colors">About & Survey Data</Link>
+              <Link href="/safety" className="hover:text-teal-400 transition-colors">Safety &amp; Recovery Center</Link>
+              <Link href="/about" className="hover:text-teal-400 transition-colors">About &amp; Survey Data</Link>
               <Link href="/checklist" className="hover:text-teal-400 transition-colors font-medium text-slate-300">Printable Checklist</Link>
             </nav>
           </div>
@@ -74,7 +44,7 @@ const Footer: React.FC = () => {
           {/* Incident reporting */}
           <div className="space-y-3">
             <h4 className="text-xs font-bold uppercase tracking-wider text-slate-200">
-              Emergency Reporting
+              Reporting Helpline
             </h4>
             <div className="space-y-3 text-sm">
               <div className="rounded-lg bg-slate-800/80 p-3 border border-slate-700/80 space-y-1">
