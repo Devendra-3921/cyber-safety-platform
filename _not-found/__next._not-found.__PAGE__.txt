@@ -1,0 +1,28 @@
+2:"$Sreact.fragment"
+3:"/cyber-safety-platform/_next/static/chunks/3_cw_6bec30ma.js"
+4:I[39756,["$3"],"default"]
+5:I[37457,["$3"],"default"]
+a:"/cyber-safety-platform/_next/static/chunks/3edj17xci_8f0.js"
+b:I[5014,["$3","$a"],"default"]
+c:I[10007,["$3","$a"],"default"]
+d:I[97367,["$3"],"OutletBoundary"]
+e:"$Sreact.suspense"
+11:"ViewportBoundary"
+12:I[97367,["$3"],"$11"]
+13:"MetadataBoundary"
+14:I[97367,["$3"],"$13"]
+15:I[27201,["$3"],"IconMark"]
+7:X
+7:C
+8:X
+9:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[["$","div",null,{"className":"min-h-[65vh] flex flex-col items-center justify-center px-4 sm:px-6 py-16 text-center","children":[["$","div",null,{"className":"bg-teal-50 border border-teal-200/80 w-20 h-20 rounded-2xl flex items-center justify-center mb-6 shadow-2xs","children":["$","$Lb",null,{"icon":{"name":"shield-alert","size":24,"node":[["path",{"d":"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z","key":"oel41y"}],["path",{"d":"M12 8v4","key":"1got3b"}],["path",{"d":"M12 16h.01","key":"1drbdi"}]]},"className":"w-10 h-10 text-teal-700"}]}],["$","div",null,{"className":"inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 text-slate-700 text-xs font-semibold uppercase tracking-wider mb-3","children":[["$","$Lb",null,{"icon":{"name":"circle-alert","size":24,"node":[["circle",{"cx":"12","cy":"12","r":"10","key":"1mglay"}],["line",{"x1":"12","x2":"12","y1":"8","y2":"12","key":"1pkeuh"}],["line",{"x1":"12","x2":"12.01","y1":"16","y2":"16","key":"4dfq90"}]],"aliases":["alert-circle"]},"className":"h-3.5 w-3.5 text-amber-600"}],"Error 404 • Page Not Found"]}],["$","h1",null,{"className":"text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-3","children":"Resource Not Located"}],["$","p",null,{"className":"text-base text-slate-600 mb-8 max-w-md mx-auto leading-relaxed","children":"The cyber safety topic or link you requested doesn't exist or has moved. Explore our core curriculum or return home."}],["$","div",null,{"className":"flex gap-3","children":[["$","$Lc",null,{"href":"/","variant":"primary","className":"px-6 py-3","children":"Return to Home"}],["$","$Lc",null,{"href":"/learn","variant":"secondary","className":"px-6 py-3","children":"Browse All Topics"}]]}]]}],[["$","script","script-0",{"src":"/cyber-safety-platform/_next/static/chunks/3edj17xci_8f0.js","async":true}]],["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]]}],"p":"$@10","v":null,"s":"$8"}}]]
+1:[["children",{"s":"/_not-found","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]]}],"p":"$@6","v":"$7","s":"$8"},"c":"$Q9"}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L12",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L14",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Cyber Security Awareness & Digital Safety Platform"}],["$","meta","1",{"name":"description","content":"Community Engagement Program (CEP) educational initiative for digital safety and cyber fraud prevention."}],["$","link","2",{"rel":"icon","href":"/cyber-safety-platform/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L15","3",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@16","v":null,"s":"$8"}},"a":"$@17","u":"$@18","b":"i6g31s5RN5auS8AwkrFk5"}
+f:null
+18:true
+8:300
+8:C
+17:0
+6:"$undefined"
+16:"$undefined"
+10:"$undefined"
